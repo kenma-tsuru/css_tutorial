@@ -1,0 +1,25 @@
+h1 {
+	font-size: 36px;
+	color: blue;
+}
+
+p {
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+ul li {
+	font-size: 24px;
+}
+
+.red {
+	color: red;
+}
+
+.blue {
+	color: blue;
+}
+
+.green {
+	color: green;
+}
