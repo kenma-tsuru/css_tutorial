@@ -71,7 +71,7 @@
 
 ## Selectors
 
-### Specificity
+### Cascading
 * The CSS language has rules to control which selector is stronger in the event of a conflict. 
 * These rules are called `cascade` and `specificity`. 
 * In the code block below, we define two rules for the `p` selector, but the paragraph text will be blue. 
@@ -89,7 +89,7 @@ p {
 ```html
 <p class="special">What color am I?</p>
 ```
-
+### Specificity
 * However, in the case of our earlier example with the conflict between the *class* selector and the *element* selector, the class prevails, rendering the paragraph text red. 
 * A class is rated as being more *specific*, as in having more **specificity** than the element selector, so it cancels the other conflicting style declaration.
 
