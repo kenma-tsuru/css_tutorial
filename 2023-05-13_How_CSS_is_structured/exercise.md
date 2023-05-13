@@ -11,7 +11,7 @@
 
 ```html
 <div class="box">
-  <p class="text">Hello, world!</p>
+  <h1 class="text">Hello, world!</p>
 </div>
 ```
 ```css
